@@ -1,4 +1,4 @@
 {
-  "exec": "node -r sucrase/register server.js",
-  "watch": ["server.js", "src"]
+  "exec": "node -r sucrase/register src/server.js",
+  "watch": ["src"]
 }

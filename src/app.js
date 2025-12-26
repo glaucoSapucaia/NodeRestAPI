@@ -1,7 +1,7 @@
 import "dotenv/config";
 import express from "express";
-import "./src/database";
-import homeRoutes from "./src/routes/homeRoutes";
+import "./database";
+import homeRoutes from "./routes/homeRoutes";
 
 class App {
   constructor() {
