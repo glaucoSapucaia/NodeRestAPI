@@ -2,7 +2,6 @@ services:
   mariadb:
     image: mariadb:11
     container_name: mariadb_api
-    restart: unless-stopped
 
     env_file:
       - .env
